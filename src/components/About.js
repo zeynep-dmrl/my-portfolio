@@ -48,12 +48,12 @@ const About = () => {
                     </div>
                     <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
                         <SiDjango style={{ fontSize: 24 }} className="animate-bounce"/>
-                        <div>Django/Python</div>
+                        <div>TypeScript</div>
                     </div>
                     
                     <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
                         <SiBootstrap style={{ fontSize: 24 }} className="animate-bounce"/>
-                        <div>Bootstrap</div>
+                        <div>MaterialUI</div>
                     </div>
                 </div>
 
