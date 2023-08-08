@@ -1,6 +1,6 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
-import logo from '../assets/my-photo.jpg'
+import logo from '../assets/WhatsApp Görsel 2023-08-08 saat 23.01.46.jpg'
 import { SiTailwindcss, SiReact, SiJavascript, SiDjango, SiNodedotjs, SiBootstrap } from 'react-icons/si';
 
 const About = () => {
