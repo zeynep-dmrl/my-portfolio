@@ -55,10 +55,10 @@ const About = () => {
                         <div>MaterialUI</div>
                     </div>
                     
-                    <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
-                        <SiNodedotjs style={{ fontSize: 24 }} className="animate-bounce"/>
-                        <div>Node.js</div>
-                    </div>
+                    // <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
+                    //     <SiNodedotjs style={{ fontSize: 24 }} className="animate-bounce"/>
+                    //     <div>Node.js</div>
+                    // </div>
                     
                     
                     
