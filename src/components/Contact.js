@@ -25,7 +25,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className='hover:scale-105'>
-                        <a href="https://drive.google.com/file/d/1NX4fvy21cW6jBdt6hpFEDpiwZPLUqs66/view?usp=sharing" className='text-sm text-white border p-1 rounded-lg' target={'_blank'}>
+                        <a href="https://www.canva.com/design/DAF-fFJf2Co/chCZBWmSdoVMoBCEQbSPWg/view?utm_content=DAF-fFJf2Co&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" className='text-sm text-white border p-1 rounded-lg' target={'_blank'}>
                             Resume
                         </a>
                     </div>
