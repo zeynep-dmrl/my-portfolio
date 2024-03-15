@@ -1,7 +1,8 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
 import logo from '../assets/WhatsApp Görsel 2023-08-08 saat 23.01.46.jpg'
-import { SiTailwindcss, SiReact, SiJavascript, SiDjango, SiNodedotjs, SiBootstrap } from 'react-icons/si';
+import { SiTailwindcss, SiReact, SiJavascript, SiDjango, SiNodedotjs, SiBootstrap,SiTypescript } from 'react-icons/si';
+import { TbBrandNextjs } from "react-icons/tb";
 
 const About = () => {
     return (
@@ -34,27 +35,33 @@ const About = () => {
                         <div>React.js</div>
                     </div>
                     <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
+                        <SiTypescript style={{ fontSize: 24 }} className="animate-bounce"/>
+                        <div>TypeScript</div>
+                    </div>
+                    <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
                         <SiJavascript style={{ fontSize: 24 }} className="animate-bounce"/>
                         <div>Javascript</div>
                     </div>
                     <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
+                        <TbBrandNextjs style={{ fontSize: 24 }} className="animate-bounce"/>
+                        <div>Next.js</div>
+                    </div>
+                    <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
                         <SiTailwindcss style={{ fontSize: 24 }} className="animate-bounce"/>
                         <div>Tailwind.css</div>
+                    </div>
+                    <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
+                        <SiBootstrap style={{ fontSize: 24 }} className="animate-bounce"/>
+                        <div>MaterialUI</div>
                     </div>
                     
                     <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
                         <SiNodedotjs style={{ fontSize: 24 }} className="animate-bounce"/>
                         <div>Node.js</div>
                     </div>
-                    <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
-                        <SiDjango style={{ fontSize: 24 }} className="animate-bounce"/>
-                        <div>TypeScript</div>
-                    </div>
                     
-                    <div className='font-semibold text-lg flex items-center justify-around space-x-4'>
-                        <SiBootstrap style={{ fontSize: 24 }} className="animate-bounce"/>
-                        <div>MaterialUI</div>
-                    </div>
+                    
+                    
                 </div>
 
             </div>
